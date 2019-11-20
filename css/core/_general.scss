@@ -37,7 +37,7 @@ html.wf-inactive {
 
 body {
     color: $color-0;
-    background: $color-grey-1;
+    background: #f9f6f1;
     font-family: 'Open Sans', sans-serif;
     @include fs(16px);
 }
@@ -80,6 +80,7 @@ h3 {
 h1,
 h2,
 h3 {
+    font-family: 'Oswald', serif;
     margin: 0 0 0.25em;
     width: 100%;
 }

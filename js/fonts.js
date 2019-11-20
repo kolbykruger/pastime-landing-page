@@ -4,7 +4,10 @@
         sessionStorage.fonts = true;
       },
       google: {
-        families: ['Open+Sans:300,400,400i,500,600,700']
+          families: [
+              'Oswald:300,400,500,600,700',
+              'Open+Sans:400,400i,600'
+          ]
       },
       timeout: 2000
     };

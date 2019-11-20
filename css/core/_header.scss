@@ -1,4 +1,5 @@
 .header {
+    padding-top: 3em;
 
     .container {
         position: relative;
@@ -10,7 +11,9 @@
     }
 
     .logo {
-        max-width: 240px;
+        width: 100%;
+        max-width: 200px;
+        margin: 0 auto;
 
         a {
             display: block;
@@ -59,12 +62,6 @@
     @media (max-width: 900px) {
         .group {
             align-items: center;
-        }
-
-        .logo {
-            max-width: 160px;
-            max-height: 70px;
-            padding: 0 0 0 1em;
         }
 
         .search {
